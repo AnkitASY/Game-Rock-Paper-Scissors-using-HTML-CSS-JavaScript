@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(32, 32, 30);
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    padding: 2px 2px;
+    margin: 12px; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+#opponent-choice {
+    width: 240px;
+    height: 210px;
+    /* background-color: rgb(132, 132, 132); */
+    margin-top: 10px;
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid white;
+}
+
+#your-choice {
+    width: 240px;
+    height: 210px;
+    /* background-color: yellow; */
+    margin-top: 10px;
+    padding: 12px;
+    margin: 12px; 
+    border: 1px solid white;
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+#choices img:hover{
+    cursor: pointer;
+    color: rgb(2, 11, 11);
+}
+#choices img {
+    width: 80px;
+    height: 80px;
+}
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (max-width: 500px) {
+    .con{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }  
+}
